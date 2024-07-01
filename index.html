@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="img-div">
+    <img src="pic.jpg" alt="image" data-testid="slackProfilePicture">
+  </div>
+
+  <div class="about">
+    <h2>About Me</h2>
+    <p>My name is <span class="name" data-testid="slackDisplayName">Sandee.</span>
+   I do not like phone calls but you can reach me via <span class="email" data-testid="slackEmail">oyarekhuas@gmail.com</span>
+    </p>
+    <p>My goals for the next 2yrs include I being all I planned to be. No more imposter syndrome. I would be a G
+      Fullstack Web Developer as well as a certified Software Engineer. I would be fully grounded in my stack: HTML, CSS[Tailwind and Bootstrap inclusive], JavaScript, MongoDB amd SQL for databases, Python Flask for backend development, React with TypeScript and others I wish to learn in the future. 
+      I would have earned the title of a Mid-level/Senior Fullstack Deveoper and would have ny own comfy workspace at home.
+    </p>
+    <p>For starters, I'm in HNG. You can learn more about it
+      <a href="https://www.hng.tech/" target="_blank" data-testid="hngLink">here.</a>
+      Also see
+      <a href="http://keyword.dog" target="_blank" data-testid="keywordLink">article</a>
+      or
+      <a href="http://scrapeanyweb.site" target="_blank" data-testid="scrapeanywebLink">scrapesite</a>
+    </p>
+  </div>
+  
+  <p class="Time">
+    <span id="time" data-testid="currentTimeUTC"></span>
+    ||
+    <span id="DoW" data-testid="currentDay"></span>
+  </p>
+  <script src="script.js"></script>
+</body>
+
+</html>
